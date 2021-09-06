@@ -1,0 +1,28 @@
+Package: EGGAPE
+Title: Simulating observations from the Exponentiated Generalized Gull Alpha Power Exponential distribution
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(given = "Mutua",
+           family = "Kilai",
+           role = c("aut", "cre"),
+           email = "kilaimutua@gmail.com",
+           comment = c(ORCID = "0000-0001-6290-9278")),
+      person(given = "Anthony Waititu",
+             family = "Gichuhi",
+             role = "aut",
+             email = "agwaititu@gmail.com"),
+      person(given = "Anthony Kibira",
+             family = "Wanjoya",
+             role = "aut",
+             email = "awanjoya@gmail.com"))
+Description: Density function, distribution function, quantile function and random generation for the Gumbel distribution with scale and shape parameters.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    gsl
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
